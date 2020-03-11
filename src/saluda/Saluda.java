@@ -19,14 +19,19 @@ public class Saluda {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String nombre;
-        int edad ;
+        String nombre, apellidos;
+        int edad;
         System.out.println("Introduzca nombre");
         nombre = sc.nextLine();
-        System.out.print("Hola " + nombre);
+        System.out.println("Introduzca apellidos");
+        apellidos = sc.nextLine();
+        System.out.print("Hola " + nombre + apellidos);
         System.out.println("");
         edad = sc.nextInt();
+
         System.out.println("Introduzca la edad");
-       System.out.print("Hola " + nombre + " tienes " + edad + " años");
+        System.out.print("Hola " + nombre + " tienes " + edad + " años");
+        
+        
     }
 }
